@@ -1,0 +1,108 @@
+body{
+    background: url("../images/fondo-home.jpg") no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+    }
+.container {
+    background: rgba(255, 255, 255, 0);
+
+}
+h1{
+    font-family: 'Holtwood One SC', serif;
+    margin-top: 100px;
+    text-align: center;
+}
+h1,h4 {
+    color: #b39031;
+}
+h4 {
+    font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
+}
+.row {
+    height: 100vh;
+}
+button, div{
+    font-family: 'Rubik', sans-serif;
+}
+nav.navbar {
+    background-color: #097c79;
+    color: white;
+    padding: 0;
+    border-bottom: #b39031 solid 2px !important;
+}
+nav.navbar a {
+    color: white;
+    opacity: 0.8;
+}
+nav.navbar ul {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+nav.navbar a.active {
+    opacity: 1;
+}
+nav.navbar a:hover {
+    opacity: 1;
+}
+.card-header {
+    background-color: #b39031;
+    height: 30px;
+    padding: 0;
+}
+.card-header button {
+    color: white;
+    width: 100%;
+
+}
+.card button.btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+.card button.btn-link:focus {
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand {
+    margin-left: 13%;
+}
+.loginRegister {
+    margin-right: 15%;
+}
+img.logo {
+    height: 50px;
+    width: auto;
+}
+.card-header{
+    height: 40px;
+}
+.navbar-nav > li > .dropdown-menu { 
+    background-color: #097c79; 
+}
+img.profile{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+@media (max-width:600px) {
+    body {
+        background: white;
+    }
+    .navbar{
+        position: relative;
+    }
+    .card-header {
+        padding-bottom: 2%;
+    }
+    .faq{
+        
+        margin-left: 70%;
+    }
+    .loginRegister{
+        margin-left: 40%;
+    }
+  
+}

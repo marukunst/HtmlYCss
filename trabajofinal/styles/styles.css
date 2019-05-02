@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/red.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    margin-top: -55px;
+}
+.row {
+    height: 100%;
+    z-index: -1;
+}
+nav.navbar {
+    background-color: #097c79;
+    color: white;
+    height: 55px;
+    z-index: 1;
+    border-bottom: #b39031 solid 2px !important;
+}
+nav.navbar a {
+    color: white;
+    opacity: 0.8;
+}
+nav.navbar a.active {
+    opacity: 1;
+}
+nav.navbar a:hover {
+    opacity: 1;
+}
+
+.card-header {
+
+    background-color: #31b3ae;
+}
+.card-header a {
+    color: white;
+    opacity: 0.8;
+}
+.card-header a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
